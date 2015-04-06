@@ -1,0 +1,15 @@
+Source: openpilot
+Section: science
+Priority: optional
+Maintainer: James Duley <james@openpilot.org>
+Build-Depends: debhelper (>= 9), gcc-arm-none-eabi (>= 4.9.0), python-all-dev, libqt5opengl5-dev, qtbase5-dev, qtbase5-dev-tools, qttools5-dev-tools, libnewlib-arm-none-eabi(>=2.1.0+git20141201), libstdc++-arm-none-eabi-newlib, qtdeclarative5-dev, libqt5svg5-dev, qtscript5-dev, libusb-1.0-0-dev, libqt5serialport5-dev, qtmultimedia5-dev, qt5-default, libsdl1.2-dev, libudev-dev, libc6-i386, binutils-arm-none-eabi (>=2.25-3+7)
+Standards-Version: 3.9.4
+Homepage: http://www.openpilot.org
+Vcs-Git: git://git.openpilot.org/OpenPilot.git
+Vcs-Browser: http://git.openpilot.org/changelog/OpenPilot
+
+Package: openpilot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: OpenPilot GCS
+ OpenPilot Ground Control Station software

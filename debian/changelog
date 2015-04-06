@@ -1,0 +1,5 @@
+openpilot (15.02-1) unstable; urgency=low
+
+  * Release from upstream Git (testing - unstable)
+
+ -- Anton Gladky <gladk@debian.org>  Sat, 04 Apr 2015 15:01:08 +0200
